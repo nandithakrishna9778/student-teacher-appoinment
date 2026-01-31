@@ -1,0 +1,171 @@
+/* css/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #656254;
+    text-align: center;
+    padding-top: 60px;
+}
+.navbar {
+    background-color: #1e293b;
+    padding: 12px 20px;
+  }
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+.navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+  }
+
+.navbar ul li a:hover {
+    color: #090909;
+  }
+  /* Navbar */
+.navbar {
+  background: #1e293b;
+  padding: 15px 30px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-list li a:hover {
+  color: #38bdf8;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #d4dc87, #333436);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.hero-buttons {
+  margin-top: 25px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.btn.primary {
+  background: #22c55e;
+  color: white;
+}
+
+.btn.secondary {
+  background: #f59e0b;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Features */
+.features {
+  padding: 60px 20px;
+  text-align: center;
+  background: #f8fafc;
+}
+
+.features h2 {
+  margin-bottom: 40px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.feature-card {
+  background: rgb(139, 94, 94);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.977);
+}
+
+/* Footer */
+.footer {
+  background: #020617;
+  color: #cbd5f5;
+  text-align: center;
+  padding: 15px;
+}
+
+
+
+h1 {
+    color: #010911;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+form {
+    display: inline-block;
+    background: white;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, select {
+    display: block;
+    width: 250px;
+    padding: 10px;
+    margin: 10px auto;
+}

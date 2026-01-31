@@ -40,22 +40,22 @@ Version Control: Git & GitHub
 # Project Structure
 appointment-system/
 ├── public/
-│   ├── index.html              # Landing page
-│   ├── admin.html              # Admin dashboard
-│   ├── teacher.html            # Teacher dashboard
-│   ├── student.html            # Student dashboard
+│   ├── index.html              
+│   ├── admin.html              
+│   ├── teacher.html            
+│   ├── student.html           
 │   ├── css/
-│   │   └── styles.css          # Main stylesheet
+│   │   └── styles.css          
 │   └── js/
-│       ├── config.js           # Firebase configuration
-│       ├── auth.js             # Authentication module
-│       ├── admin.js            # Admin functionality
-│       ├── teacher.js          # Teacher functionality
-│       ├── student.js          # Student functionality
-│       └── logger.js           # Logging utility
-├── firebase.json               # Firebase configuration
-├── .firebaserc                 # Firebase project settings
-└── README.md                   # Project documentation
+│       ├── config.js           
+│       ├── auth.js            
+│       ├── admin.js           
+│       ├── teacher.js          
+│       ├── student.js          
+│       └── logger.js           
+├── firebase.json               
+├── .firebaserc                 
+└── README.md                  
 # Installation & Setup
 Prerequisites
 
